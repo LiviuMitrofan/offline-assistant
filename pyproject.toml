@@ -1,0 +1,20 @@
+[project]
+name = "offline-assistant"
+version = "0.1.0"
+description = "Offline AI-powered file system assistant using LangChain and Ollama"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain",
+    "langchain-ollama",
+    "langchain-chroma",
+    "langchain-community",
+    "chromadb",
+    "pypdf",
+    "docx2txt",
+    "pyyaml",
+    "langchain-text-splitters",
+    "rich>=14.3.2",
+    "graphviz>=0.21",
+    "streamlit>=1.54.0",
+]

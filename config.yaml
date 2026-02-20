@@ -1,0 +1,17 @@
+# Directories to scan and index (add your own paths here)
+directories:
+  - "C:\\Users\\Liviu\\Desktop\\liviumit\\Assist\\Contests\\fs_test"
+
+# Text splitting settings
+chunk_size: 1000
+chunk_overlap: 200
+
+# Ollama model for chat/reasoning (must support tool calling)
+ollama_model: "qwen3:8b"
+
+# Ollama model for generating embeddings
+embedding_model: "nomic-embed-text"
+
+# Number of documents to retrieve per query
+# Higher values = more context but slower queries
+retrieval_k: 5
