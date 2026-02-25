@@ -4,6 +4,10 @@ A fully offline, locally-running AI assistant that indexes your file system and 
 
 Built with **LangChain**, **Ollama**, **ChromaDB**, **Streamlit**, and **Graphviz**.
 
+## IMPORTANT
+This project works on both Windows and Linux, but at the moment, it needs a bit of resources.
+PS: i did not have time to add LEANN integration and to optimize the system for lower resources usage.
+
 ---
 
 ## Features

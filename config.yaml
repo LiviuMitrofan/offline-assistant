@@ -1,6 +1,6 @@
 # Directories to scan and index (add your own paths here)
 directories:
-  - "C:\\Users\\Liviu\\Desktop\\liviumit\\Assist\\Contests\\fs_test"
+  - "<your_directory_path>"
 
 # Text splitting settings
 chunk_size: 1000
